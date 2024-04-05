@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+
+/* Styles for all the text elements */
+p{
+    color: #000;
+    font-weight: 500;
+}
+
+/* Styles for the time */
+#Time{
+    letter-spacing: -0.07rem;
+    font-size: 1.5vh;
+    font-weight: 600;
+}
+
+/* Styles for the temperature */
+#Temperature{
+    position: relative;
+    letter-spacing: -0.1rem;
+    font-size: 1.5vh;
+    font-weight: 600;
+}
+
+/* Styles for icons */
+.icon{
+    width: 7vw;
+}
+
+/* Styles for the main cards each hour */
+.ThreeHourForecastCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 2rem 0rem 2rem 0rem;
+}
+
+
+/* Styles for paragraph elements inside three-hour forecast card */
+.ThreeHourForecastCard p{
+    margin:0;
+}
+
+/* Media query for screens less than desktop */
+@media screen and (max-width: 1023px){
+    #Time, #Temperature{
+        font-size:2.7vw;
+        letter-spacing: -0.1rem;
+    }
+    .icon{
+        width:8vw;
+    }
+    .ThreeHourForecastContainer{
+        padding: -1rem;
+        min-width: 11%;
+    }
+}

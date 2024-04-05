@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+
+/* Styles for the container of current temperature */
+.CurrentTempContainer
+{
+    width: 100%;
+    height: 15rem;
+    border-radius: 0.9375rem;
+    background: rgba(245, 245, 245, 0.68);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.1);
+
+}
+
+/* Styles for the current temperature card */
+.CurrentTempCard{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Styles for the image inside the current temperature card */
+.CurrentTempCard > img
+{
+    height: 100%;
+    image-rendering: crisp-edges;
+}
+
+/* Styles for the temperature text */
+.Temp{
+    display: flex;
+    align-items: center;
+    font-size: 3.7vw;
+    font-weight: 900;
+    text-align: center;
+    height: 100%;
+    margin-left: -1rem;
+    letter-spacing: -0.25rem;
+}
+
+/* Styles for the current temp header */
+.Header{
+    margin-bottom: -1vw;
+    font-size: 2rem;
+    max-width: 80%;
+    margin-top: 3vw;
+    line-height: 80%;
+    text-align: center;
+}
+
+/* Additional styles for the image inside the current temperature card */
+.CurrentTempCard img{
+    margin-left: -2.5rem;
+}
+
+/* Media query for screens less than desktop*/
+@media screen and (max-width: 1023px){
+    .CurrentTempContainer{
+        justify-content: center;
+        padding:1.4rem;
+        min-width: fit-content;
+    }
+    .CurrentTempCard{
+        text-align: center;
+        flex-direction: column;
+        max-width: 80%;
+        min-width: fit-content;
+    }
+    .Temp{
+        font-size: 3.5rem;
+        letter-spacing: -0.3rem;
+        max-width: 80%;
+        margin-top:-3rem;
+        margin-left: -1rem;
+    }
+    .CurrentTempCard img{
+        height:11rem;
+        width:10rem;
+        margin-top:-3.5rem;
+        padding-bottom: 1rem;
+        margin-left: 0;
+    }
+    .Header{
+        font-size:2rem;
+        margin-top: 4rem;
+        line-height: 80%;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+}

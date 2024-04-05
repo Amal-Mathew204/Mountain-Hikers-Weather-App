@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Styling for the Weather Conditions cards */
+.Container {
+  background-color: none;
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+
+/* Device BreakPoints Sourced From: https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
+/* For devices smaller than a laptop or desktop */
+
+@media only screen and (max-width: 1023px) {
+  .Container {
+    height: 25vh;
+    padding-bottom: 40%;
+  }
+}

@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+
+/* Styles for the container of three-hourly forecast */
+.ThreeHourlyForecastContainers{
+    max-width: inherit;
+    position: relative;
+    height: fit-content;
+    border-radius: 0.9375rem;
+    background: rgba(245, 245, 245, 0.68);
+    margin-top: 10%;
+    box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow-x: scroll;
+}
+
+/* Styles for scrollbar in the three-hourly forecast container */
+.ThreeHourlyForecastContainers::-webkit-scrollbar {
+    height: 0.6rem;
+}
+
+ /* Media query for screens less than desktop */
+@media screen and (max-width: 1023px){
+    .ThreeHourlyForecastContainers{
+        height: 25vw;
+        margin-top: 2rem;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+}

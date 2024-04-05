@@ -1,0 +1,116 @@
+/* Styling for all buttons */
+button {
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  width: 12rem;
+  height: 2rem;
+  border-radius: 1.875rem;
+  background: #d9d9d9;
+  text-align: center;
+  padding: 0.25rem;
+  border: none;
+  font-family: "Archivo", sans-serif;
+  font-weight: 500;
+}
+
+/*Styling for heading of storedlocations*/
+.Heading{
+  font-size: 1.8rem;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  border-bottom: 0.01rem solid lightgrey;
+  padding: 0.4rem;
+  margin-right: 1rem;
+  margin-bottom: 0rem;
+}
+
+/* Styling for side menu */
+.Side-menu {
+  width: 20%;
+  margin-top: 1.5rem;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  align-items: center;
+  padding-top: 1%;
+  padding-left: 1%;
+}
+
+/* Override Menu component default styling */
+.bm-overlay {
+  display: none !important;
+  width: 0% !important;
+  pointer-events: none !important;
+}
+
+/*f ixing overflow of too many mountains*/
+.StoredMountainsContainer{
+  height: 103%;
+}
+
+.bm-item-list{
+  margin-top:1rem;
+}
+
+/* Bellow is disabling the menu button via css */
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  display: none;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  display: none;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  display: none;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  display: none;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  display: none;
+}
+
+/* Styling for potential stored */
+.storedmountain{
+  border-bottom: 0.01rem solid lightgrey;
+  padding: 0.4rem;
+  margin-right: 1rem;
+}
+
+/* Styling for name of potential stored mountain*/
+.storedmountain p{
+  font-size: 1.5rem;
+  letter-spacing: -0.03rem;
+}
+
+/* Styling for main two buttons*/
+.mainbuttons{
+  font-weight:700;
+  letter-spacing: -0.02rem;
+  background: rgb(180,180,180);
+}
+
+.mainbuttons:hover{
+  background-color: rgba(187, 179, 179, 0.425);
+
+}
+
+button:hover {
+  background-color: rgba(132, 127, 127, 0.425);
+}
+
+/* Styles for screens below 1023px */
+@media (max-width: 1023px) {
+  .storedmountain, .Heading{
+    margin-left:1rem;
+  }
+}

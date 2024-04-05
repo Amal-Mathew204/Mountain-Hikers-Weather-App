@@ -1,0 +1,59 @@
+*
+{
+    box-sizing: border-box;
+}
+
+
+/* Styles for the container of the title */
+.TitleContainer
+{
+    position: absolute;
+    align-self: center;
+    justify-self: center;
+    background-color: aliceblue;
+    left: 10%;
+
+    width: 80vw;
+    height: 12vw;
+
+    border-radius: 0.9375rem;
+    background: rgba(245, 245, 245, 0.68);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    user-select: none; /*disabling txt selection*/
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    -webkit-user-select: none;
+}
+
+
+/* Styles for the title text */
+.TitleContainer > h1
+{
+    color: #000;
+    font-family: "Archivo", sans-serif;
+    font-size: 7vw;
+    font-style: normal;
+    text-transform: capitalize;
+    font-weight: 900;
+    letter-spacing: -0.3rem;
+    line-height: normal;
+    text-align: center;
+    position: relative;
+}
+
+/* Media query for screens less than desktop */
+@media screen and (max-width: 1023px) {
+    .TitleContainer > h1{
+        font-size: 8vw;
+        line-height: 100%;
+        max-width: 95%;
+        padding:0.5rem;
+        letter-spacing: -0.15rem;
+    }
+    .TitleContainer{
+        height: 25vw;
+    }
+}

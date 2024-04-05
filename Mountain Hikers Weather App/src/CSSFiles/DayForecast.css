@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+
+
+/* Styles for all text/paragraph elements */
+p{
+    color: #000;
+    font-family: "Archivo", sans-serif;
+    font-size: 1.5vw;
+    font-style: normal;
+    line-height: normal;
+}
+
+/* Styles for header elements */
+.Header{
+    font-weight: 800;
+    letter-spacing: -0.04em;
+}
+
+/* Styles for day forecast container */
+.DayForecast{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+    padding: 4%;
+}
+
+/* Styles for individual day in the forecast */
+.Day{
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: -0.04em;
+    padding: 1rem 0rem 1rem 1rem;
+    margin-right: 2rem;
+}
+
+/* Styles for temperature values */
+.Temp1, .Temp2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 5%;
+    margin-left: -1rem;
+}
+
+/* Styles for temperature labels so high/low */
+.TempLabel {
+    font-weight: 800;
+    font-size:1.3vw;
+    letter-spacing: -0.06rem;
+    border-bottom: 0.01rem solid gray;
+}
+
+/* Styles for temperature values */
+.TempValue {
+    font-weight: 400;
+    letter-spacing: -0.05rem;
+    font-size: 1.5vw;
+}
+
+/* Additional styles for images inside day forecast */
+.DayForecast img{
+    margin-left: -3rem;
+}
+
+/* Styling for devices smaller than a laptop or desktop */
+@media screen and (max-width:1023px){
+    .Day{
+        font-size:3.2vw;
+    }
+    .TempLabel{
+        font-size: 2.4vw;
+
+    }
+    .TempValue{
+        font-size:3.2vw;
+    }
+}
+
+@media screen and (max-width:767px){
+    .Day{
+        font-size:4vw;
+    }
+    .TempLabel{
+        font-size: 3vw;
+    }
+    .TempValue{
+        font-size:4vw;
+    }
+}

@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Styles for the weather card */
+.Weather-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 47.5%;
+  height: 45%;
+  border-radius: 0.9375rem;
+  box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for paragraph elements inside the weather card */
+.Weather-card > p {
+  text-align: center;
+  margin: 0rem;
+}
+
+/* Styles for the condition */
+.Condition {
+  font-weight: 700;
+  font-size: 2.3vw;
+}
+
+/* Styles for the type */
+.Type {
+  font-weight: 600;
+  letter-spacing: -0.07rem;
+}
+
+/*tablet media query*/
+@media screen and (max-width: 1023px) {
+  .Condition {
+    font-size: 4vw;
+    width: 20vw;
+    font-weight: 800;
+  }
+  .Type {
+    font-size: 2.9vw;
+    font-weight: 600;
+  }
+  .Weather-card {
+    padding: 4rem;
+    margin-top: 1rem;
+  }
+}
+
+/* For devices smaller than a laptop or desktop */
+@media screen and (max-width: 767px) {
+  .Condition {
+    font-size: 2rem;
+  }
+  .Type {
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,88 @@
+/* Applies box-sizing to all elements for consistent sizing */
+* {
+  box-sizing: border-box;
+}
+/* Styles for the main application container and loading screen */
+.App,
+.AppLoadingScreen {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  width: 100%;
+  height: 100%;
+}
+/* Styles for the content area within the app */
+.AppContent,
+.AppContentLoadingScreen {
+  position: relative;
+  display: flex;
+  height: 90%;
+}
+.AppPageContainer {
+  position: relative;
+  flex: 33.33%;
+  margin: 2%;
+  overflow: hidden;
+}
+
+.ContainerContent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+/* Styles for the background image */
+.BackgroundStartImage {
+  position: absolute;
+  z-index: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Styling for devices smaller than a laptop or desktop */
+@media only screen and (max-width: 1023px) {
+  .App {
+    position: relative;
+  }
+  .AppContent {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    padding: 0 10% 0 10%;
+  }
+  .AppPageContainer {
+    overflow: visible;
+  }
+  #CurrentWeatherSection {
+    grid-row-start: 0;
+    grid-row-end: 1;
+  }
+  #WeatherConditionSection {
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  #WindMapSection {
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+}
+
+/* CSS to customise scrollbar */
+::-webkit-scrollbar {
+  width: 0.6rem;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 1rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

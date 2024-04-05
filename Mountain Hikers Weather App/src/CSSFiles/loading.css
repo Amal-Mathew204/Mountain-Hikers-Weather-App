@@ -1,0 +1,36 @@
+.loader {
+  position: fixed; /* Use fixed positioning to place it relative to the viewport */
+  top: 40%; /* Position the top edge of the loader at the middle of the viewport vertically */
+  left: 45%; /* Position the left edge of the loader at the middle of the viewport horizontally */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Offset the loader back by half its width and height to center it */
+  display: block;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid rgb(0, 85, 183);
+  width: 150px;
+  height: 150px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari animation*/
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

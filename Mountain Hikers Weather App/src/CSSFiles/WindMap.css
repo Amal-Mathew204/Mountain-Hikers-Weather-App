@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Styling for the wind map */
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Match the width of Wind-Map-Container */
+  height: 100%;
+  background: rgba(245, 245, 245, 0.68);
+  border-radius: 0.9375rem;
+  z-index: 3;
+}
+
+.wind-title {
+  text-align: center; /* Centers the text horizontally */
+  width: 100%; /* Take the full width */
+  margin: 0; /* Remove default margins if any */
+  font-family: "Archivo", sans-serif;
+  font-size: 1.5em;
+  padding: 0.8rem;
+  letter-spacing: -0.05em;
+  /* Add some padding if you want some space around your title */
+  /* This will add padding on top and bottom */
+}
+
+.Wind-Map-Container {
+  width: 100%;
+  height: 90%;
+  background: rgba(245, 245, 245, 0.68);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.map {
+  height: 100vh;
+  width: 100%;
+}
+
+/* For devices smaller than a laptop or desktop */
+@media screen and (max-width: 1023px) {
+  .container {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  }
+}

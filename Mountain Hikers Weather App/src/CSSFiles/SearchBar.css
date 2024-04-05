@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Styles for the search results */
+.SearchResults {
+  position: absolute;
+  top: 4rem;
+  width: 19.3125rem;
+  flex-shrink: 0;
+  border-radius: 0rem 0rem 0.9375rem 0.9375rem;
+  background: #d9d9d9;
+  z-index: 3;
+  box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the search bar container */
+.search-bar-container {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4.5rem;
+  background: rgba(245, 245, 245, 0.68);
+  z-index: 5;
+}
+
+/* Styles for the side menu */
+.sideMenu {
+  margin-left: 1rem;
+  background: #d9d9d9;
+  border-radius: 1.875rem;
+  padding: 0.6rem;
+}
+
+.sideMenu:hover{
+  background-color: rgba(187, 179, 179, 0.425);
+}
+
+/* Styles for the opened side menu */
+.sideMenu.open {
+  z-index: 6;
+}
+
+/* Styles for the search */
+.search {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 4.5rem;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  z-index: 2;
+  margin-left:11rem;
+}
+
+/* Styles for the search bar */
+.search-bar {
+  width: 20vw;
+  min-width: fit-content;
+  height: 3.3125rem;
+  border-radius: 1.875rem;
+  background: #d9d9d9;
+  text-align: center;
+  border: none;
+  font-family: "Archivo", sans-serif;
+}
+
+.search-bar:hover{
+  background-color: rgba(187, 179, 179, 0.425);
+}
+
+/* Styles for the actual mountain search result*/
+.mountainresultval {
+  width: 100%;
+  margin-top: 0.5rem;
+  background: none;
+  border: none;
+  text-align: left;
+  font-family: "Archivo", sans-serif;
+  font-weight: 500;
+}
+
+/* Styles for the outline of searchbox when inputting*/
+input:focus {
+  outline: 0.15rem solid rgba(151, 139, 145, 0.425);
+}
+
+/* Styles for the temperature toggle container */
+.ToggleTempContainer {
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+}
+
+.ToggleTempButton:hover{
+  background-color: rgba(187, 179, 179, 0.425);
+}
+
+/* Oultine when clicking button*/
+.ToggleTempContainer button:active {
+  outline: 0.15rem solid rgba(151, 139, 145, 0.425);
+}
+
+/* Styles for screens below 1023px */
+@media (max-width: 1023px) {
+  .search-bar {
+    width: 40vw;
+  }
+  .search{
+    margin-left:0;
+  }
+
+  .ToggleTempContainer button {
+    width: 20vw;
+    position: relative;
+    margin-left: 1vw;
+  }
+  
+  .sideMenu {
+    margin-right: 13vw;
+  }
+
+  .storedmountain{
+    padding: 10rem;
+  }
+
+  .mainbuttons{
+    margin-left:3.3rem;
+  }
+}
