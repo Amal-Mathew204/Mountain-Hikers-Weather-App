@@ -2,7 +2,7 @@
 
 ## About
 
-This is a university group project for Graphical Interfaces Module. It's a web based weather application for mountain climbers. The application provides various forecast data and graphical weather data for mountain locations across the globe.
+This is a university group project for Graphical Interfaces Module. It's a web based weather application for mountain hikers. The application provides various forecast data and graphical weather data for mountain locations across the globe.
 
 ### Features
 
@@ -44,22 +44,21 @@ _Note: API KEYS have been removed from the project files, to avoid key misusage.
 ## Project Visuals
 
 ### Desktop
-
-![Desktop home](/visuals/desktop/home.png)
-![Desktop Home Searching](/visuals/desktop/home_search.png)
-![Desktop Location](/visuals/desktop/location.png)
-![Desktop Location Searching](/visuals/desktop/location_search.png)
-![Desktop Open Side Menu with no Location](/visuals/desktop/open_menu_no_location.png)
-![Desktop Open Side Menu with no Location](/visuals/desktop/open_menu_with_location.png)
+![desktop home](https://github.com/Amal-Mathew204/Mountain-Hikers-Weather-App/blob/main/Mountain%20Hikers%20Weather%20App/visuals/desktop/home.png)
+![desktop home_search](https://github.com/Amal-Mathew204/Mountain-Hikers-Weather-App/blob/main/Mountain%20Hikers%20Weather%20App/visuals/desktop/home_search.png)
+![desktop location](https://github.com/Amal-Mathew204/Mountain-Hikers-Weather-App/blob/main/Mountain%20Hikers%20Weather%20App/visuals/desktop/location.png)
+![desktop location_search](https://github.com/Amal-Mathew204/Mountain-Hikers-Weather-App/blob/main/Mountain%20Hikers%20Weather%20App/visuals/desktop/location_search.png)
+![desktop open_menu_no_location](https://github.com/Amal-Mathew204/Mountain-Hikers-Weather-App/blob/main/Mountain%20Hikers%20Weather%20App/visuals/desktop/open_menu_no_location.png)
+![desktop open_menu_with_location](https://github.com/Amal-Mathew204/Mountain-Hikers-Weather-App/blob/main/Mountain%20Hikers%20Weather%20App/visuals/desktop/open_menu_with_location.png)
 
 ### Mobile
 
-![Mobile home](/visuals/mobile/home.png)
-![Mobile Home Searching](/visuals/mobile/home_search.png)
-![Mobile Location](/visuals/mobile/location.png)
-![Mobile Location Searching](/visuals/mobile/location_search.png)
-![Mobile Open Side Menu with no Location](/visuals/mobile/open_menu_no_location.png)
-![Mobile Open Side Menu with no Location](/visuals/mobile/open_menu_with_location.png)
+![mobile home](https://github.com/Amal-Mathew204/Mountain-Hikers-Weather-App/blob/main/Mountain%20Hikers%20Weather%20App/visuals/mobile/home.png)
+![mobile home_search](https://github.com/Amal-Mathew204/Mountain-Hikers-Weather-App/blob/main/Mountain%20Hikers%20Weather%20App/visuals/mobile/home_search.png)
+![mobile location](https://github.com/Amal-Mathew204/Mountain-Hikers-Weather-App/blob/main/Mountain%20Hikers%20Weather%20App/visuals/mobile/location.png)
+![mobile location_search](https://github.com/Amal-Mathew204/Mountain-Hikers-Weather-App/blob/main/Mountain%20Hikers%20Weather%20App/visuals/mobile/location_search.png)
+![mobile open_menu_no_location](https://github.com/Amal-Mathew204/Mountain-Hikers-Weather-App/blob/main/Mountain%20Hikers%20Weather%20App/visuals/mobile/open_menu_no_location.png)
+![mobile open_menu_with_location](https://github.com/Amal-Mathew204/Mountain-Hikers-Weather-App/blob/main/Mountain%20Hikers%20Weather%20App/visuals/mobile/open_menu_with_location.png)
 
 ## Colaborators
 
